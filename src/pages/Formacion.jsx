@@ -12,6 +12,7 @@ const LOGOS = {
 function Formacion() {
   return (
     <div className="formacion-container">
+
       {/* EXPERIENCIA LABORAL */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
@@ -45,6 +46,8 @@ function Formacion() {
               </li>
             </ul>
           </div>
+          
+          {/* Logos alineados horizontalmente y centrados */}
           <div
             style={{
               display: "flex",
