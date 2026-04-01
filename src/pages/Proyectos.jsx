@@ -84,12 +84,10 @@ function Proyectos() {
         </a>
       </motion.div>
 
-
-
-      {/* PROYECTO 2 - INSTALACION DOCKER */}
+      {/* PROYECTO 3 */}
       <motion.div className="project-card" whileHover={{ scale: 1.05, backgroundColor: "#00f" }}>
         <div className="encabezado">
-          <h2>Despliegue con Docker & Nginx</h2>
+          <h2>PROYECTO 3</h2>
           <span>2026</span>
         </div>
 
@@ -119,15 +117,15 @@ function Proyectos() {
         </div>
 
         <a href="https://soka.gitlab.io/blog/post/2019-07-08-docker-imagenes-y-contenedores/" target="_blank" rel="noreferrer">
-          <button className="boton">Guía de Instalación Docker</button>
+          <button className="boton">PROYECTO 3</button>
         </a>
       </motion.div>
 
-      {/* PROYECTO 2 - INSTALACION DOCKER */}
+      {/* PROYECTO 4*/}
       <motion.div className="project-card" whileHover={{ scale: 1.05, backgroundColor: "#00f" }}>
 
         <div className="encabezado">
-          <h2>Despliegue con Docker & Nginx</h2>
+          <h2>PROYECTO 4</h2>
           <span>2026</span>
         </div>
 

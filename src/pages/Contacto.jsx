@@ -18,8 +18,7 @@ function Contacto()
       setMensaje("")
     } 
   
-
-  // FUNCION ENVIAR
+  // FUNCION ENVIAR                   
   function enviar(e)
   {
     e.preventDefault()
@@ -36,9 +35,6 @@ function Contacto()
         .catch(() => {
           alert("Error al enviar");
         });
-
-
-
 
 
     const formData = new FormData(e.target)

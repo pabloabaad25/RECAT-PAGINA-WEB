@@ -1,13 +1,13 @@
-// IMPORTACIONES
 import { useState } from "react"
 import Navbar from "./pages/Navbar"
 import Home from "./pages/Home"
 import SobreMi from "./pages/SobreMi"
 import Contacto from "./pages/Contacto"
 import Proyectos from "./pages/Proyectos" 
-// ESTILOS
+import Formacion from "./pages/Formacion" 
+
 import './App.css'
-// ESTADO
+
 function App() {
   const [pagina, setPagina] = useState("inicio")
 
@@ -18,7 +18,9 @@ function App() {
       {pagina === "inicio" && <Home />}
       {pagina === "sobreMi" && <SobreMi />}      
       {pagina === "contacto" && <Contacto />}    
-      {pagina === "proyectos" && <Proyectos />}      
+      {pagina === "proyectos" && <Proyectos />}
+      
+      {pagina === "formacion" && <Formacion />}      
     </>
   )
 }
